@@ -184,6 +184,41 @@ section{padding-block:clamp(80px,12vw,150px) 0;scroll-margin-top:40px}
 .proj .kind{font:500 11.5px var(--f-mono);letter-spacing:.08em;padding:5px 10px;border:1px solid var(--line);border-radius:999px;color:var(--muted);margin-top:12px;white-space:nowrap}
 .proj .kind.m{color:var(--warn);border-color:rgba(245,180,84,.35)}
 .proj .kind.w{color:var(--accent-2);border-color:rgba(155,123,255,.4)}
+.proj .kind.r{color:#7DD3FC;border-color:rgba(125,211,252,.35)}
+.pgroup{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;padding:34px 0 10px;border-bottom:1px solid var(--line)}
+.pgroup span{font:400 clamp(22px,3vw,30px)/1 var(--f-display);letter-spacing:.02em;text-transform:uppercase;color:var(--fg)}
+.pgroup small{font:400 12px var(--f-mono);color:var(--muted)}
+.rx-shop,.rx-chef,.rx-chat,.rx-meme,.rx-asm,.rx-ten{padding:12px;color:#1f2937;font-size:11px}
+.rx-hd{display:flex;justify-content:space-between;background:#14532d;color:#fff;margin:-12px -12px 10px;padding:8px 12px;font-weight:600}
+.rx-2{display:grid;grid-template-columns:1.3fr 1fr;gap:8px}
+.rx-item{border:1px solid #e5e7eb;border-radius:7px;padding:7px;margin-bottom:6px}.rx-item em{font-style:normal;color:#15803d;font-weight:600}
+.rx-item div{display:flex;gap:7px;margin-top:4px}.rx-item i{flex:0 0 28px;height:28px;border-radius:5px;background:linear-gradient(135deg,#e5e7eb,#cbd5e1)}
+.rx-item span{display:grid}.rx-item strong{color:#b91c1c}.rx-item small{color:#6b7280}.rx-item u{color:#2563eb}
+.rx-sum{border:1px solid #e5e7eb;border-radius:7px;padding:8px;height:max-content}.rx-sum p{display:flex;justify-content:space-between;margin:5px 0 0;color:#4b5563}
+.rx-sum .tot{border-top:1px solid #eee;padding-top:6px;color:#b91c1c;font-weight:600}.rx-go{margin-top:8px;background:#16a34a;color:#fff;text-align:center;border-radius:5px;padding:6px;font-weight:600}
+.rx-sum code{display:block;margin-top:6px;font:400 9.5px var(--f-mono);color:#6b7280}
+.rx-chef h4,.rx-asm h4,.rx-ten h4{margin:0 0 8px;text-align:center;font-size:14px;color:#111}
+.rx-row{display:flex;gap:6px;margin:8px 0}.rx-in{flex:1;border:1px solid #d4d4d8;border-radius:5px;padding:6px 8px;color:#9ca3af}
+.rx-dk{background:#141413;color:#fff;border-radius:5px;padding:6px 10px;font-weight:600}.rx-gr{background:#15803d;color:#fff;border-radius:5px;padding:6px 12px}
+.rx-chef ul{margin:4px 0 0 18px;padding:0;color:#475467;line-height:1.6}.rx-cta{display:flex;justify-content:space-between;align-items:center;background:#F0EFEB;border-radius:7px;padding:8px 10px;margin-top:8px}
+.rx-cta span{display:grid}.rx-cta small{color:#6b7280}.rx-or{background:#D17557;color:#fff;border-radius:5px;padding:6px 10px;font-weight:600}
+.rx-out{border-top:1px solid #eee;margin-top:10px;padding-top:8px}.rx-out ol{margin:4px 0 0 18px;padding:0;line-height:1.6;color:#344054}
+.rx-chat p{display:flex;gap:6px;align-items:center;margin:0 0 6px;justify-content:flex-end}.rx-chat p.bot{flex-direction:row-reverse;justify-content:flex-end}
+.rx-chat p span{background:#eef0f2;border-radius:8px;padding:5px 9px}.rx-chat p i{width:18px;height:18px;border-radius:50%;background:#15803d;opacity:.75}
+.rx-mh{background:linear-gradient(90deg,#672280,#A626D3);color:#fff;margin:-12px -12px 8px;padding:8px 12px;font-weight:600}
+.rx-pu{background:linear-gradient(90deg,#672280,#A626D3);color:#fff;text-align:center;border-radius:5px;padding:6px;font-weight:600}
+.rx-img{margin-top:8px;height:150px;border-radius:6px;background:linear-gradient(160deg,#94a3b8,#475569 60%,#1e293b);display:flex;flex-direction:column;justify-content:space-between;align-items:center;padding:8px;color:#fff;font:400 15px/1 var(--f-display);letter-spacing:.04em;text-shadow:0 0 3px #000,0 0 3px #000}
+.rx-asm,.rx-ten{background:#282726;color:#D9D9D9;text-align:center}.rx-asm h4,.rx-ten h4{color:#F9F4DA}.rx-asm small,.rx-ten small{display:block;color:#8E8E8E;margin-bottom:8px}
+.rx-win{background:#10A95B;color:#fff;border-radius:4px;padding:6px;font-weight:600;margin-bottom:8px}
+.rx-langs{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;margin-bottom:8px}.rx-langs span{background:#2B4C7E;color:#fff;border-radius:3px;padding:2px 5px;font-size:10px}.rx-langs .lost{opacity:.35;text-decoration:line-through}
+.rx-word{display:flex;gap:2px;justify-content:center;margin-bottom:8px}.rx-word span{width:20px;height:22px;background:#323232;border-bottom:1px solid #F9F4DA;display:grid;place-items:center;color:#F9F4DA;font-weight:600}
+.rx-keys{display:flex;flex-wrap:wrap;gap:3px;justify-content:center;max-width:250px;margin:0 auto}.rx-keys span{width:20px;height:20px;background:#FCBA29;color:#1E1E1E;border-radius:3px;display:grid;place-items:center;font-weight:600;font-size:10px}
+.rx-keys .ok{background:#10A95B}.rx-keys .kno{background:#EC5D49;color:#fff}
+.rx-keys span,.rx-word span,.rx-langs span,.rx-dice span{position:static;line-height:1;padding-top:0;padding-bottom:0}.rx-langs span{padding:3px 5px}
+.rx-chat p{border:0!important;padding:0!important;max-width:none}
+.rx-ten{background:#F5F5F5;color:#2B283A}.rx-ten h4{color:#2B283A}.rx-ten small{color:#4A4E74}
+.rx-dice{display:grid;grid-template-columns:repeat(5,34px);gap:10px;justify-content:center;margin:10px 0}.rx-dice span{height:34px;border-radius:6px;background:#fff;box-shadow:0 2px 2px rgba(0,0,0,.15);display:grid;place-items:center;font-weight:700;font-size:15px}
+.rx-dice .held{background:#59E391}.rx-roll{display:inline-block;background:#5035FF;color:#fff;border-radius:5px;padding:7px 26px;font-weight:600}
 .proj .sub{grid-column:2/-1;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center}
 .proj .sub .where{font:400 13px var(--f-mono);color:var(--fg)}
 .proj .body{display:grid;grid-template-columns:56px 1fr 1fr;gap:18px;padding-bottom:28px}
@@ -517,8 +552,7 @@ footer .fine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
 @media (max-width:980px){.ct{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.wave .hand{animation:none}}
 </style>
-</head>
-<body>
+
 <canvas id="sky" aria-hidden="true"></canvas>
 <div class="glow-a" aria-hidden="true"></div><div class="glow-b" aria-hidden="true"></div>
 
@@ -812,6 +846,7 @@ footer .fine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
       <button type="button" class="chip" data-f="m">Mobile</button>
       <button type="button" class="chip" data-f="w">Web</button>
       <button type="button" class="chip" data-f="s">Side projects</button>
+      <button type="button" class="chip" data-f="r">React builds</button>
     </div>
     <div class="plist" id="plist">
 
@@ -874,6 +909,38 @@ footer .fine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
         <div class="sub"><span class="where">Personal project</span><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div></summary>
         <div class="body"><span></span><div><p>Plain HTML, CSS and JS, with working demos of three patterns I use in production. Try them below.</p></div>
         <ul><li>Starfield canvas and scroll timeline, no libraries</li><li>Respects reduced-motion settings</li></ul></div></details>
+
+      <div class="pgroup" data-t="r"><span>React builds</span><small>React 19 · Vite · TypeScript · Node</small></div>
+
+      <details class="proj" data-t="r" data-mock="r1"><summary><span class="no">_13.</span><h3>Full-stack E-commerce Store</h3><span class="kind r">REACT</span>
+        <div class="sub"><span class="where">React + TypeScript · Node/Express API</span><div class="tags"><span>React 19</span><span>TypeScript</span><span>React Router 7</span><span>Express</span><span>Vitest</span></div></div></summary>
+        <div class="body"><span></span><div><div class="big">End to end<small>UI → REST API → database</small></div><p>A complete store: product grid, cart, checkout with delivery options and order history, backed by its own API.</p></div>
+        <ul><li>Product grid with ratings, prices and quantity selector</li><li>Live cart count; checkout with delivery options and payment summary</li><li>Node + Express REST API with Sequelize + SQLite</li><li>Unit and component tests with Vitest + React Testing Library</li></ul></div></details>
+
+      <details class="proj" data-t="r" data-mock="r2"><summary><span class="no">_14.</span><h3>Chef Claude</h3><span class="kind r">REACT · AI</span>
+        <div class="sub"><span class="where">AI recipe generator</span><div class="tags"><span>React 19</span><span>Claude API</span><span>react-markdown</span></div></div></summary>
+        <div class="body"><span></span><div><div class="big">LLM<small>recipes from what’s in your kitchen</small></div><p>Add the ingredients you have and get a recipe back from the Claude API (or Mistral via Hugging Face).</p></div>
+        <ul><li>Ingredient form built on React 19 form actions</li><li>Recipe call-to-action appears once enough ingredients are listed</li><li>Markdown rendering and auto-scroll to the result</li></ul></div></details>
+
+      <details class="proj" data-t="r" data-mock="r3"><summary><span class="no">_15.</span><h3>React Chatbot</h3><span class="kind r">REACT</span>
+        <div class="sub"><span class="where">Chat interface</span><div class="tags"><span>React 19</span><span>Vite</span><span>ESLint</span></div></div></summary>
+        <div class="body"><span></span><div><p>A chat UI with user and bot bubbles; the bot greets you, flips a coin, rolls a dice and tells you today’s date.</p></div>
+        <ul><li>Composed from ChatInput, ChatMessages and ChatMessage components</li><li>Controlled input; state lifted to the parent</li><li>Message list auto-scrolls with useRef + useEffect</li></ul></div></details>
+
+      <details class="proj" data-t="r" data-mock="r4"><summary><span class="no">_16.</span><h3>Meme Generator</h3><span class="kind r">REACT</span>
+        <div class="sub"><span class="where">Imgflip API</span><div class="tags"><span>React</span><span>Vite</span><span>REST API</span></div></div></summary>
+        <div class="body"><span></span><div><p>Loads around 100 meme templates from the Imgflip API, picks a random one and overlays your own captions.</p></div>
+        <ul><li>Data fetching inside useEffect with a dependency array</li><li>Live preview of top and bottom captions as you type</li><li>Controlled components and immutable state updates</li></ul></div></details>
+
+      <details class="proj" data-t="r" data-mock="r5"><summary><span class="no">_17.</span><h3>Assembly: Endgame</h3><span class="kind r">REACT</span>
+        <div class="sub"><span class="where">Word-guessing game</span><div class="tags"><span>React</span><span>clsx</span><span>Accessibility</span></div></div></summary>
+        <div class="body"><span></span><div><div class="big">a11y<small>aria-live status, screen-reader summary</small></div><p>A Hangman-style game: guess the word before every programming language is lost.</p></div>
+        <ul><li>On-screen keyboard with correct and wrong letter styling</li><li>Minimal state with derived values for win and loss</li><li>aria-live updates, aria-disabled keys, screen-reader-only summary</li></ul></div></details>
+
+      <details class="proj" data-t="r" data-mock="r6"><summary><span class="no">_18.</span><h3>Tenzies</h3><span class="kind r">REACT</span>
+        <div class="sub"><span class="where">Dice game</span><div class="tags"><span>React 18</span><span>nanoid</span><span>Accessibility</span></div></div></summary>
+        <div class="body"><span></span><div><p>Roll until all ten dice match; click a die to hold it at its current value.</p></div>
+        <ul><li>Lazy state initialisation and derived “game won” state</li><li>Focus moved to New Game with useRef + useEffect</li><li>aria-pressed dice and a live region announcing the win</li></ul></div></details>
     </div>
   </section>
 
@@ -1096,12 +1163,35 @@ footer .fine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
       '<div class="mk-tabs"><b class="on">Matches</b><b>Approved (3)</b><span class="mk-chip">US</span><span class="mk-chip">UK</span></div>'+
       '<div class="mk-job wide"><div class="mk-gauge" style="--v:92"><b>92</b></div><div><b>Senior Angular Architect</b><small>Remote · Contract · $85–100/hr</small><div class="mk-tagrow"><span class="ok">Angular 20</span><span class="ok">Nx</span><span class="ok">SSR</span><span class="gap">Kubernetes</span></div></div><div class="mk-btn">Approve</div></div>'+
       '<div class="mk-job wide"><div class="mk-gauge" style="--v:84"><b>84</b></div><div><b>Lead Ionic Developer</b><small>Remote · 6 months · £550/day</small><div class="mk-tagrow"><span class="ok">Ionic</span><span class="ok">Capacitor</span><span class="gap">Swift</span></div></div><div class="mk-btn ghost">Draft letter</div></div>'),
-    p12: '<div class="mk-self"><b>You’re looking at it.</b><small>Scroll up to the starfield, or try the demos below.</small></div>'
+    p12: '<div class="mk-self"><b>You’re looking at it.</b><small>Scroll up to the starfield, or try the demos below.</small></div>',
+    r1: browser('bank','localhost:5173/checkout',
+      '<div class="rx-shop"><div class="rx-hd"><b>◆ Store</b><span>Orders · 🛒 3</span></div><div class="rx-2">'+
+      '<div>'+[['Wed, Oct 28','Cotton Socks · 6 pairs','$10.90'],['Sat, Oct 24','Basketball · size 7','$20.95'],['Wed, Oct 28','Cotton T-Shirt · 2 pack','$7.99']].map(function(r){return '<div class="rx-item"><em>'+r[0]+'</em><div><i></i><span><b>'+r[1]+'</b><strong>'+r[2]+'</strong><small>Qty 1 · <u>Update</u> · <u>Delete</u></small></span></div></div>';}).join('')+'</div>'+
+      '<div class="rx-sum"><b>Payment summary</b><p><span>Items (3)</span><span>$39.84</span></p><p><span>Shipping</span><span>$4.99</span></p><p><span>Tax (10%)</span><span>$4.48</span></p><p class="tot"><span>Order total</span><span>$49.31</span></p><div class="rx-go">Place your order</div><code>POST /api/orders → 201</code></div></div></div>'),
+    r2: browser('jobs','localhost:5173',
+      '<div class="rx-chef"><h4>🧑‍🍳 Chef Claude</h4><div class="rx-row"><span class="rx-in">e.g. oregano</span><span class="rx-dk">+ Add ingredient</span></div>'+
+      '<b>Ingredients on hand:</b><ul><li>chicken</li><li>garlic</li><li>heavy cream</li><li>pasta</li><li>basil</li></ul>'+
+      '<div class="rx-cta"><span><b>Ready for a recipe?</b><small>Generate a recipe from your list.</small></span><span class="rx-or">Get a recipe</span></div>'+
+      '<div class="rx-out"><b>Creamy Garlic Basil Pasta</b><ol><li>Sear the chicken until golden.</li><li>Sauté garlic, add cream, simmer 5 min.</li><li>Toss in pasta and fresh basil.</li></ol></div></div>'),
+    r3: browser('jobs','localhost:5173 · chatbot',
+      '<div class="rx-chat">'+[['me','hello chatbot'],['bot','Hello! How can I help you?'],['me','flip a coin'],['bot','Sure! You got heads'],['me','roll a dice'],['bot','Sure! You got 4'],['me','what is the date today'],['bot','Today is October 27']].map(function(m){return '<p class="'+m[0]+'"><span>'+m[1]+'</span><i></i></p>';}).join('')+
+      '<div class="rx-row"><span class="rx-in">Send a message to Chatbot</span><span class="rx-gr">Send</span></div></div>'),
+    r4: browser('jobs','localhost:5173 · memes',
+      '<div class="rx-meme"><div class="rx-mh">😂 Meme Generator</div><div class="rx-row"><span class="rx-in">When the build passes</span><span class="rx-in">on the first try</span></div><div class="rx-pu">Get a new meme image 🖼</div>'+
+      '<div class="rx-img"><b>WHEN THE BUILD PASSES</b><b>ON THE FIRST TRY</b></div></div>'),
+    r5: browser('jobs','localhost:5173 · assembly-endgame',
+      '<div class="rx-asm"><h4>Assembly: Endgame</h4><small>Guess the word in under 8 attempts to keep the programming world safe from Assembly!</small>'+
+      '<div class="rx-win">You win! Well done! 🎉</div><div class="rx-langs">'+['HTML','CSS','JavaScript','React','TypeScript','Node.js','Python','Ruby'].map(function(l,i){return '<span class="'+(i<2?'lost':'')+'">'+l+'</span>';}).join('')+'</div>'+
+      '<div class="rx-word">'+'REFACTOR'.split('').map(function(c){return '<span>'+c+'</span>';}).join('')+'</div>'+
+      '<div class="rx-keys">'+'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(function(c){var g='REFACTO'.indexOf(c)>-1?'ok':('BXZ'.indexOf(c)>-1?'kno':'');return '<span class="'+g+'">'+c+'</span>';}).join('')+'</div></div>'),
+    r6: browser('jobs','localhost:5173 · tenzies',
+      '<div class="rx-ten"><h4>Tenzies</h4><small>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</small>'+
+      '<div class="rx-dice">'+[5,5,2,5,6,5,5,1,5,5].map(function(v){return '<span class="'+(v===5?'held':'')+'">'+v+'</span>';}).join('')+'</div><div class="rx-roll">Roll</div></div>')
   };
   document.querySelectorAll('#plist .proj').forEach(function(d){
     var id=d.dataset.mock, body=d.querySelector('.body'); if(!MOCKS[id]||!body)return;
     var m=document.createElement('figure'); m.className='mock';
-    m.innerHTML=MOCKS[id]+'<figcaption>Concept view · illustrative screen, not the client’s production UI</figcaption>';
+    m.innerHTML=MOCKS[id]+'<figcaption>'+(d.dataset.t==='r'?'Concept view · illustrative screen':'Concept view · illustrative screen, not the client’s production UI')+'</figcaption>';
     body.insertBefore(m, body.children[1]);
   });
 
@@ -1173,7 +1263,7 @@ footer .fine{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;
     b.addEventListener('click',function(){
       document.querySelectorAll('.chip').forEach(function(x){x.classList.toggle('on',x===b)});
       var f=b.dataset.f;
-      document.querySelectorAll('#plist .proj').forEach(function(c){c.hidden=!(f==='all'||c.dataset.t===f)});
+      document.querySelectorAll('#plist .proj, #plist .pgroup').forEach(function(c){c.hidden=!(f==='all'||c.dataset.t===f)});
     });
   });
 
